@@ -1,5 +1,7 @@
 import os
 
+#Data 03/10/2025
+
 restaurantes = [{'Nome': "Mc Donalds",'categoria':'Brasil', 'ativo':False}, 
                 {'Nome':'Pizza Supremaa', 'categoria':'Italiana', 'ativo':True},
                 {'Nome':'Cantina', 'categoria':'Chines', 'ativo':False}]
