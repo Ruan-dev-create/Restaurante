@@ -60,7 +60,7 @@ def lista_restaurantes():
     for c in restaurantes:
         nome_rest = c['Nome']
         categoria = c['categoria']
-        ativado = c['ativo']
+        ativado = "Ativo" if c['ativo'] else 'Desativado'
         print(f' -> {nome_rest} | {categoria} | {ativado}')
     voltar_menu_princ()
 
